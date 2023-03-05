@@ -5,7 +5,7 @@ Allow calculating time data numerically.
 
 (Soon will be finished in 1~2 weeks)
 
-##### Structs
+## Structs
 
 ```julia
 Majortime <: NumericalTime
@@ -18,7 +18,7 @@ NTime <: NumericalTime	#UnFinished
   minortime::Time
 ```
 
-##### Construct methods
+## Construct methods
 
 ```julia
 julia>Majortime(Hour(1), Minute(2), Second(3))
@@ -31,7 +31,7 @@ julia> Majortime(1,2)
 Majortime(Hour(0), Minute(1), Second(2))
 ```
 
-##### Example
+## Example
 
 ```julia
 julia>Majortime(1,2,3)+Majortime(6,1,8)
